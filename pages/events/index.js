@@ -1,13 +1,14 @@
 import EventList from "../../components/events/event-list";
-
 import { getAllEvents } from "../../dummy-data";
+import EventsSearch from "../../components/events/events-search";
 
 function Events() {
   const events = getAllEvents();
   return (
-    <div>
+    <>
+      <EventsSearch />
       <EventList items={events} />
-    </div>
+    </>
   );
 }
 
