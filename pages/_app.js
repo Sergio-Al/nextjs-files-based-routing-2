@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-
+import "firebase/firestore";
 import Layout from "../components/layout/layout";
 
 function MyApp({ Component, pageProps }) {
